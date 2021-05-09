@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.MotherDiv {
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+}
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    background: #DDDDDD;
+    margin: 0px 15px;
+    font-weight: bold;
+    /* margin-bottom: 50px; */
+}
+
+.Heading {
+    width: 85%;
+    margin: 35px auto;
+    background: #DDDDDD;
+    padding: 30px 0px;
+}
+
+.Heading h2 {
+    color: #A52A2A;
+    margin-bottom: 18px;
+}
+
+.Heading p {
+    width: 85%;
+    margin: auto;
+}
+img {
+    height: 300px;
+    width: auto;
+    float: left;
+}
+
+.AboutInfo {
+    width: auto;
+    height: 300px;
+}
+
+h2 {}
+
+.AboutInfo h2 {
+    BACKGROUND: #DDDDDD;
+    padding-right: 195px;
+}
+
+.Info {
+    float: left;
+    text-align: start;
+    margin-left: 190px;
+    width: 550px;
+}
+
+.Info h4 {
+    color: #A52A2A;
+    margin: 20px 0px 8px 0px;
+}
+
+.Info p {
+    margin: 10px 0px;
+}
+.Services h3 {
+    background: #DDDDDD;
+    display: inline-block;
+    padding: 8px 18px;
+    border: 1px solid #0000004f;
+}
+
+.ServiceBox {
+    width: 364px;
+    float: left;
+    padding: 35px 10px;
+    background: #DDDDDD;
+    margin: 10px 10px;
+    /* clear: left; */
+    text-align: center;
+}
+
+h3 {
+    /* clear: both; */
+}
+
+.Services h3::after {content: "";clear: both;}
+.Footer {
+    border-top: 2px solid;
+    clear: both;
+    background: #DDDDDD;
+    padding: 15px 40px;
+}
